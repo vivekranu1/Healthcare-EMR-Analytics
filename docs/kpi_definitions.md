@@ -48,3 +48,12 @@ COUNT(Fact_LabResults[Lab Result ID])
 Avg Visits per Patient :=
 DIVIDE([Total Visits], [Total Patients])
 
+**Note on Abnormal Lab Results Logic**
+
+The `Is_Abnormal` column is stored as a numeric flag:
+- 1 = Abnormal
+- 0 = Normal
+- Blank = Pending / Not Available
+
+Therefore, DAX measures compare the column to `1` instead of using `TRUE()`,
+ensuring compatibility with Excel Power Pivot data types.
