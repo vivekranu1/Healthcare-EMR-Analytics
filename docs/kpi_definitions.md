@@ -57,3 +57,30 @@ The `Is_Abnormal` column is stored as a numeric flag:
 
 Therefore, DAX measures compare the column to `1` instead of using `TRUE()`,
 ensuring compatibility with Excel Power Pivot data types.
+
+## Advanced KPI Measures
+
+Advanced KPIs were created using DAX in the Excel Power Pivot Calculation Area.
+These KPIs provide operational, clinical, and executive-level insights.
+
+### Abnormal Lab Results
+Counts lab tests flagged as abnormal.
+
+### Abnormal Lab Result Percentage
+Measures the proportion of abnormal lab results against total tests.
+
+### Cancelled Visits
+Tracks visits that were cancelled to monitor operational inefficiencies.
+
+### Completed Visits
+Counts successfully completed patient visits.
+
+### Visit Completion Rate
+Indicates the percentage of visits completed successfully.
+
+### Treatments per Visit
+Measures treatment intensity per patient visit.
+
+### Year-over-Year Visit Growth
+Evaluates visit trends compared to the previous year using the Dim_Date table.
+
