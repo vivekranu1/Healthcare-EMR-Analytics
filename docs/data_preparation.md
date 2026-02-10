@@ -27,6 +27,7 @@ The Date dimension includes attributes such as Year, Month, Month Name, and Year
 
 #### Age Group
 An Age Group column was derived in the Patients dimension using Power Query to support demographic analysis. Grouping ages improves interpretability and aligns with standard healthcare reporting practices.
+
 Less than or Equal to 12 = Child
 Less than or Equal to 19 = Teen
 Less than or Equal to 35 = Young Adult
