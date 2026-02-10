@@ -25,3 +25,11 @@ Created from the Visit Date column of the Fact_Visits table to enable consistent
 
 The Date dimension includes attributes such as Year, Month, Month Name, and YearMonthKey, and is used to support trend analysis, month-level aggregation, and year-over-year (YoY) comparisons across all dashboards.
 
+#### Age Group
+An Age Group column was derived in the Patients dimension using Power Query to support demographic analysis. Grouping ages improves interpretability and aligns with standard healthcare reporting practices.
+Less than or Equal to 12 = Child
+Less than or Equal to 19 = Teen
+Less than or Equal to 35 = Young Adult
+Less than or Equal to 50 = Adult
+Less than or Equal to 65 = Senior Citizen
+Greater than 65 = Senior Most Citizen
